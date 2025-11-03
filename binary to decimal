@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+int n,c =1;
+printf("Enter the number");
+scanf("%d",&n);
+int ans = 0;
+while(n>0){
+int r = n%2;
+ans = ans + (r*c);
+n = n/2;
+c = c*10;
+
+}
+printf("%d\n",ans);
+
+//agar decimal se binary karna ho toh replace 2 by 10 and 10 by 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return 0;
+}
